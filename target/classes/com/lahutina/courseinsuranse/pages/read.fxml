@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lahutina.courseinsuranse.controllers.ReadDataController">
+   <children>
+      <Label fx:id="title" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="27.0" prefHeight="30.0" prefWidth="684.0" text="Label" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Cambria Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="risk" layoutX="239.0" layoutY="479.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="endDate" layoutX="470.0" layoutY="397.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="startDate" layoutX="241.0" layoutY="398.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="47.0" layoutY="32.0" mnemonicParsing="false" onAction="#toShowPage" prefHeight="26.0" prefWidth="55.0" text="Back" />
+      <Label layoutX="239.0" layoutY="105.0" prefHeight="26.0" prefWidth="42.0" text="Buyer">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="468.0" layoutY="105.0" prefHeight="26.0" prefWidth="42.0" text="Seller">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="166.0" prefHeight="26.0" prefWidth="56.0" text="Name:">
+         <font>
+            <Font name="Cambria Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="228.0" prefHeight="26.0" prefWidth="55.0" text="Email:">
+         <font>
+            <Font name="Cambria Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="290.0" prefHeight="26.0" prefWidth="84.0" text="Payment:">
+         <font>
+            <Font name="Cambria Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="393.0" prefHeight="26.0" prefWidth="72.0" text="Start date">
+         <font>
+            <Font name="Cambria Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="394.0" prefHeight="26.0" prefWidth="72.0" text="End date">
+         <font>
+            <Font name="Cambria Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="479.0" prefHeight="26.0" prefWidth="84.0" text="Risk:">
+         <font>
+            <Font name="Cambria Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="480.0" prefHeight="26.0" prefWidth="84.0" text="Profit:">
+         <font>
+            <Font name="Cambria Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="profit" layoutX="468.0" layoutY="479.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="buyerName" layoutX="239.0" layoutY="170.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="buyerEmail" layoutX="239.0" layoutY="235.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="buyerPay" layoutX="239.0" layoutY="295.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="sellerName" layoutX="468.0" layoutY="166.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="sellerEmail" layoutX="468.0" layoutY="235.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="sellerPay" layoutX="470.0" layoutY="295.0" text="Label">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="type" layoutX="606.0" layoutY="29.0" prefHeight="26.0" prefWidth="72.0" text="Label">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
