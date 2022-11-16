@@ -21,7 +21,11 @@ public class JDBCConnection {
     }
 
     public static void closeConnection() throws SQLException {
-        instance.close();
-        instance = null;
+        if(instance!=null)
+        {
+            instance.close();
+            instance = null;
+        }
+
     }
 }
