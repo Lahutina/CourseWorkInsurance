@@ -61,8 +61,8 @@ public class UpdateController {
         title.setText(doc.getTitle());
         buyerName.setText(doc.getBuyer().getFullName());
         buyerEmail.setText(doc.getBuyer().getEmail());
-        sellerEmail.setText(doc.getSeller().getFullName());
-        sellerName.setText(doc.getSeller().getEmail());
+        sellerName.setText(doc.getSeller().getFullName());
+        sellerEmail.setText(doc.getSeller().getEmail());
         startDate.setText(String.valueOf(doc.getStartDate()));
         endDate.setValue(doc.getEndDate().toLocalDate());
         risk.setText(String.valueOf(doc.getRisk()));
